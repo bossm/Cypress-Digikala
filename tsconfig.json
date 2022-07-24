@@ -1,0 +1,46 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "baseUrl": ".",
+    "paths": {
+      "@/redux/*": ["redux/*"],
+      "@/apis/*": ["apis/*"],
+      "@/types/*": ["types/*"],
+      "@/containers/*": ["containers/*"],
+      "@/data/*": ["data/*"],
+      "@/helpers/*": ["helpers/*"],
+      "@/components/*": ["components/*"],
+      "@/styles/*": ["styles/*"],
+      "@/core/*": ["core/*"],
+      "@/config": ["./config"],
+      "@/config/*": ["./config/*"],
+      "@/pages/*": ["./pages/*"],
+      "@/src/containers/*": ["./src/containers/*"],
+      "@/src/components/*": ["./src/components/*"],
+      "@/src/features/*": ["./src/features/*"],
+      "@/src/shared/*": ["./src/shared/*"],
+      "@/features/*": ["./features/*"],
+    }
+  },
+  "include": [
+    "next-env.d.ts",
+    "global.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "pages/try-roomvu-social-media-marketing/desktop.js",
+    "pages/signin.js"
+  ],
+  "exclude": ["node_modules"]
+}
